@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\mach">
+      <UniqueIdentifier>{61fefd58-beaa-4b72-aa7a-e5ec212994c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\mach">
+      <UniqueIdentifier>{6883c537-5433-4a8a-a076-6f5e5d66640f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\mach\platform">
+      <UniqueIdentifier>{5089989d-08c2-4acd-af12-8a08ca375cd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\mach\platform\sdl">
+      <UniqueIdentifier>{6d558881-d50e-460d-89ae-11a7cc023c29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\mach\platform">
+      <UniqueIdentifier>{9c10ceb4-9eeb-4353-ba87-ba211abd13ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\mach\platform\sdl">
+      <UniqueIdentifier>{b16b8d8b-20d9-4d96-b386-48bc8eb4e0ef}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mach\abstract_game_state.cpp">
+      <Filter>Source Files\mach</Filter>
+    </ClCompile>
+    <ClCompile Include="mach\application.cpp">
+      <Filter>Source Files\mach</Filter>
+    </ClCompile>
+    <ClCompile Include="mach\event_data.cpp">
+      <Filter>Source Files\mach</Filter>
+    </ClCompile>
+    <ClCompile Include="mach\game_data.cpp">
+      <Filter>Source Files\mach</Filter>
+    </ClCompile>
+    <ClCompile Include="mach\game_state.cpp">
+      <Filter>Source Files\mach</Filter>
+    </ClCompile>
+    <ClCompile Include="mach\shared_game_data.cpp">
+      <Filter>Source Files\mach</Filter>
+    </ClCompile>
+    <ClCompile Include="mach\system_event_data.cpp">
+      <Filter>Source Files\mach</Filter>
+    </ClCompile>
+    <ClCompile Include="mach\platform\sdl\window.cpp">
+      <Filter>Source Files\mach\platform\sdl</Filter>
+    </ClCompile>
+    <ClCompile Include="mach\platform\sdl\system.cpp">
+      <Filter>Source Files\mach\platform\sdl</Filter>
+    </ClCompile>
+    <ClCompile Include="mach\platform\sdl\render_window.cpp">
+      <Filter>Source Files\mach\platform\sdl</Filter>
+    </ClCompile>
+    <ClCompile Include="mach\platform\sdl\event_handler.cpp">
+      <Filter>Source Files\mach\platform\sdl</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="mach\abstract_event_handler.hpp">
+      <Filter>Header Files\mach</Filter>
+    </ClInclude>
+    <ClInclude Include="mach\abstract_game_state.hpp">
+      <Filter>Header Files\mach</Filter>
+    </ClInclude>
+    <ClInclude Include="mach\abstract_renderer.hpp">
+      <Filter>Header Files\mach</Filter>
+    </ClInclude>
+    <ClInclude Include="mach\application.hpp">
+      <Filter>Header Files\mach</Filter>
+    </ClInclude>
+    <ClInclude Include="mach\colour.hpp">
+      <Filter>Header Files\mach</Filter>
+    </ClInclude>
+    <ClInclude Include="mach\event_data.hpp">
+      <Filter>Header Files\mach</Filter>
+    </ClInclude>
+    <ClInclude Include="mach\game_data.hpp">
+      <Filter>Header Files\mach</Filter>
+    </ClInclude>
+    <ClInclude Include="mach\game_loop.hpp">
+      <Filter>Header Files\mach</Filter>
+    </ClInclude>
+    <ClInclude Include="mach\game_state.hpp">
+      <Filter>Header Files\mach</Filter>
+    </ClInclude>
+    <ClInclude Include="mach\shared_game_data.hpp">
+      <Filter>Header Files\mach</Filter>
+    </ClInclude>
+    <ClInclude Include="mach\system_event_data.hpp">
+      <Filter>Header Files\mach</Filter>
+    </ClInclude>
+    <ClInclude Include="mach\platform\sdl\event_handler.hpp">
+      <Filter>Header Files\mach\platform\sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="mach\platform\sdl\render_window.hpp">
+      <Filter>Header Files\mach\platform\sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="mach\platform\sdl\system.hpp">
+      <Filter>Header Files\mach\platform\sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="mach\platform\sdl\window.hpp">
+      <Filter>Header Files\mach\platform\sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="mach\abstract_game_data.hpp">
+      <Filter>Header Files\mach</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
