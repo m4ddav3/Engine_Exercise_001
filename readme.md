@@ -2,7 +2,9 @@
 A fixed size window that updates 60 time a second, has multiple game states and
 cleanly exits. 
 
-Requires SDL2
+## Compilation Requirements
+- SDL2 2.0.8+ library https://www.libsdl.org/download-2.0.php
+- C++17
 
 
 ## Purpose
